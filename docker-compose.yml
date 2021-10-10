@@ -11,6 +11,7 @@ services:
       - "80:80"
     environment:
       - MESSAGE
+      - REDIS_HOST
 
   redis:
     image: redis
